@@ -1,0 +1,7 @@
+# Normalize line endings; the Plugin Hub CI builds on Linux.
+* text=auto eol=lf
+*.bat text eol=crlf
+gradlew text eol=lf
+gradle-wrapper.jar binary
+*.jar binary
+*.png binary
